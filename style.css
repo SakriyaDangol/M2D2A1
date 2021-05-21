@@ -110,7 +110,7 @@
     }
 
     .info-box-discription{
-        width: 30%;
+        width: 27%;
         margin: auto;
         margin-top: 1%;
         border: 1px solid blue;
@@ -119,15 +119,14 @@
     }
 
     .info-box-details{
-        margin-top: 1%;
-        margin: auto;
+        margin-left: 3%;
         background-color: rgb(0,174,225);
         width: 41%;
         text-align: center;
         padding: 0.5% 0%;
         color: white;
         line-height: 200%;
-        float: right;
+        display: inline-block;
     }
 
 }
