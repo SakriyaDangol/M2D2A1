@@ -15,7 +15,7 @@
 }
 
 .body-wrapper{
-    padding: 5px;
+    padding: 5px 0px;
 }
 
 .list-box{
@@ -64,9 +64,14 @@
 
 @media only screen and (min-width: 768px) {
 
+    .body-wrapper{
+        width: 95%;
+        margin: auto;
+    }    
+
     .list-box{
         display: inline-block;
-        width: 45%;
+        width: 48%;
     }
     
     .list-box ul{
@@ -76,26 +81,52 @@
     .list-box ul li{
         background: rgb(0,174,225);
         padding: 10px;
-        margin: 10px 40px;
+        margin: 10px 0px;
         list-style: none;
     }
 
     .info-box-discription{
+        padding: 0.5%;
         width: 50%;
         margin: auto;
         margin-top: 1%;
         border: 1px solid blue;
-        display: inline-block;
+        float: right;
         vertical-align: top;
+    }
+
+    .info-box-details{
+        background-color: rgb(0,174,225);
+        width: 100%;
+        text-align: center;
+        padding: 0.5% 0%;
+        color: white;
+        line-height: 200%;
+    }
+
+    .footer{
+        background-color: rgb(0,174,225);
+        width: 95%;
+        padding: 0.5% 0%;
+        margin: auto;
+        margin-top: 1%;
+        text-align: center;
     }
 
 }
 
 @media only screen and (min-width: 1100px) {
 
+    .body-wrapper{
+        width: 95%;
+        padding: 5px 0px;
+        margin: auto;
+    }    
+
     .list-box{
         display: inline-block;
         width: 25%;
+        margin-left: -1.1%;
     }
     
     .list-box ul{
@@ -104,29 +135,36 @@
     
     .list-box ul li{
         background: rgb(0,174,225);
-        padding: 10px;
-        margin: 10px 40px;
+        padding: 4%;
+        margin: 4% ;
         list-style: none;
     }
 
     .info-box-discription{
-        width: 27%;
-        margin: auto;
-        margin-top: 1%;
+        width: 34%;
         border: 1px solid blue;
         display: inline-block;
         vertical-align: top;
+        float: unset;
     }
 
     .info-box-details{
-        margin-left: 3%;
         background-color: rgb(0,174,225);
-        width: 41%;
+        width: 40%;
         text-align: center;
         padding: 0.5% 0%;
         color: white;
         line-height: 200%;
-        display: inline-block;
+        float: right;
+    }
+
+    .footer{
+        background-color: rgb(0,174,225);
+        width: 95%;
+        padding: 0.5% 0%;
+        margin: auto;
+        margin-top: 1.2%;
+        text-align: center;
     }
 
 }
